@@ -1,0 +1,42 @@
+.action-items .btn {
+  width: 100%;
+}
+
+h1.page-header {
+  font-size: 28px;
+}
+
+#edit-submit {
+  width: 100%;
+  height: 80px;
+}
+
+.ui-widget-content {
+  background: red;
+  background: -webkit-linear-gradient(left, #FFC371, #FF5F6D);
+  background: -o-linear-gradient(right, #FFC371, #FF5F6D);
+  background: -moz-linear-gradient(right, #FFC371, #FF5F6D);
+  background: linear-gradient(to right, #FFC371, #FF5F6D);
+}
+
+/* Logo Size */
+.logo img {
+  width: 34px;
+}
+
+/* Lat/Long fields hidden */
+.form-item-field-coordinates-und-0-geom-lat, .form-item-field-coordinates-und-0-geom-lon {
+  display: none;
+}
+
+/* Drop help blocks on image selector */
+.form-item-field-take-a-picture-und-0 .help-block {
+  display: none;
+}
+
+/* Make Find Location button full width */
+#edit-field-coordinates-und-0-geom-geocode {
+  width: 100%;
+  font-weight: bold;
+  margin: 0;
+}
